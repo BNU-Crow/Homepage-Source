@@ -58,7 +58,7 @@ theme = "hugo-elate-theme"
     title = "Android 版《北师二鸦》"
     description = "《北师二鸦》代码全部重写，从Java编程语言迁移到了先进的Kotlin编程语言，开发效率大大提高，进行了大量逻辑优化，效能提升显著。尚在研发中……"
     url = ""
-    button = "酷安 下载"
+    button = "尚未发布"
     icon = "icon-screen-smartphone"
     img = "img_8.jpg"
 
