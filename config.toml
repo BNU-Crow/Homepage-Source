@@ -1,0 +1,271 @@
+# Page settings
+baseurl = "https://bnuya.com"
+title = "北师小鸦 官方网站"
+languageCode = "zh-cn"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  # custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "小鸦团队"
+  description = "北师小鸦团队"
+  email = "xuhongxu96@hotmail.com"
+  # Navigation
+  [params.navigation]
+    brand = "北师小鸦"
+    home = "下载"
+    work = "产品展示"
+    testimonials = "用户评价"
+    services = "功能介绍"
+    about = "关于小鸦"
+    contact = "联系小鸦"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "小鸦在手，校园畅通无阻！"
+    subtitle = '无需登录繁琐的教务网，助您快捷查询考试成绩、考试安排、空闲教室、图书馆藏、借阅信息、锻炼打卡等。'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "iOS 版《北师小鸦 2》"
+    description = "《北师小鸦 2》是第二代《北师小鸦》。《北师小鸦 2》共进行了百余处优化，尤其对用户界面进行了细致的雕琢，大大提升了用户体验。"
+    url = "https://itunes.apple.com/cn/app/北师小鸦-2/id1353400507"
+    button = "App Store 下载"
+    icon = "icon-screen-smartphone"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Android 版《北师二鸦》"
+    description = "《北师二鸦》代码全部重写，从Java编程语言迁移到了先进的Kotlin编程语言，开发效率大大提高，进行了大量逻辑优化，效能提升显著。尚在研发中……"
+    url = ""
+    button = "酷安 下载"
+    icon = "icon-screen-smartphone"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "《北师小鸦》Android 版"
+    description = "《北师小鸦》创始版本，历经坎坷，功能全面，可进行图书馆选座，可以添加多份课程表……“小鸦”将于“二鸦”诞生后退役，请及时关注最新动态。"
+    url = "https://www.coolapk.com/apk/com.xuhongxu.xiaoya"
+    button = "酷安 下载"
+    icon = "icon-screen-smartphone"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = false
+    title = "演示视频"
+    icon = "icon-play2"
+    url = "#"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "功能特性"
+    description = "无微不至的校园生活助手。从此在师大，只需小鸦伴。"
+    footertext = '** 图片仅供参考，请以实际使用效果为准。'
+
+    [[params.work.row]]
+      img = "android-1.jpg"
+      alt = "北师二鸦 课程表"
+      title = "课程表"
+      subtitle = "Android 版《北师二鸦》"
+
+    [[params.work.row]]
+      img = "android-2.jpg"
+      alt = "北师二鸦 空闲自习室"
+      title = "空闲自习室"
+      subtitle = "Android 版《北师二鸦》"
+
+    [[params.work.row]]
+      img = "news-1.jpg"
+      alt = "新闻报道"
+      title = "新生App指南"
+      subtitle = "京师学工 公众号"
+
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "用户评价"
+    description = "上线两年多以来，收获了大量用户的积极评价。<br>用户的好评也是我们继续做下去的动力！"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;新小鸦也太好用了吧！！辛苦前辈们的付出！！！有锻炼打卡，有532，天啊！懵了！太强了！幸胡来得太突然！&rdquo;"
+      person = 'iOS 版《北师小鸦 2》学生用户'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;真的很好用。作为老师我也一直在用。里面很多功能不仅仅满足学生，老师也能用到。&rdquo;"
+      person = 'iOS 版《北师小鸦 2》教师用户'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;开学在纠结<span style='font-size: 0.6em;'>（注：用什么课程表App好）</span>，查不到课表。感谢信科大兄弟及时更新。教务处的乱改，真是辛苦你们了。&rdquo;"
+      person = '《北师小鸦》Android版学生用户'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "功能介绍"
+    description = "功能全面，覆盖校园生活方方面面。"
+
+    [[params.services.item]]
+      title = "清爽课程表"
+      description = "简洁明了，随时切换学期、周次，一目了然，绝不因为没有随身的课表而翘掉任何一节课。"
+      icon = "icon-calendar"
+
+    [[params.services.item]]
+      title = "GPA 报告"
+      description = "详尽、完整、准确的GPA报告，助您随时关注自己的成绩，为您留学申请提供便捷有力的参考。"
+      icon = "icon-chart"
+    [[params.services.item]]
+      title = "考试安排"
+      description = "随时关注各科考试剩余的天数，方便您计划备考。临近考试周，时刻准备着。"
+      icon = "icon-hourglass"
+
+    [[params.services.item]]
+    title = "空闲自习室"
+    description = "随时查看空闲自习室，及时提示您接下来有几节空闲节次，助您任性安排自习时间。"      
+    icon = "icon-pencil"
+
+    [[params.services.item]]
+    title = "图书馆"
+    description = "随借随查馆藏图书，再也不用烂笔头；定期查看借阅情况，从此告别违约金。"      
+    icon = "icon-book-open"
+
+    [[params.services.item]]
+    title = "锻炼打卡"
+    description = "随手查看锻炼打卡信息，打卡失败及时获知，有效避免打卡机漏记。"      
+    icon = "icon-rocket"
+
+    [[params.services.item]]
+    title = "上网网关"
+    description = "自从北师大网络网关升级，网关用户体验极差。北师小鸦提供的上网认证网关，经过多次细节打磨，是方便您在校园上网冲浪最佳工具。"      
+    icon = "icon-globe"
+
+    [[params.services.item]]
+    title = "532 Movie"
+    description = "手机上看532只能用浏览器？还要登录认证十分繁琐？手机屏幕浏览网页操作不便？试试北师小鸦吧，自带优化过的532 Movie页面，影音娱乐尽在指尖。"      
+    icon = "icon-film"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "关于小鸦"
+    description = "北师小鸦<span style='font-size: 0.6em;'>（含北师二鸦，北师小鸦 2）</span>由2位北师大14级本科生设计并开发。"
+
+    [[params.about.item]]
+      name = "许宏旭"
+      position = "创始人 / Android 开发 / 后端开发"
+      description = "14级信息科学技术学院本科生，现就职于微软中国。"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-home", "https://xuhongxu.com"],
+        ["icon-github", "https://github.com/xuhongxu96"],
+        ["icon-linkedin", "http://www.linkedin.com/in/xuhongxu/"]
+      ]
+
+    [[params.about.item]]
+      name = "陈紫檀"
+      position = "iOS 开发"
+      description = "14级信息科学技术学院本科生，擅长Apple技术栈。"
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-github", "https://github.com/zitanchen"]
+      ]
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "统计"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Commits"
+      icon = "icon-briefcase"
+      from = 0
+      to = 350
+      interval = 50
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "代码行"
+      icon = "icon-code"
+      from = 0
+      to = 30000
+      interval = 50
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "运营小时"
+      icon = "icon-cup"
+      from = 0
+      to = 26280
+      interval = 50
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "用户数量"
+      icon = "icon-people"
+      from = 0
+      to = 80000
+      interval = 50
+      speed = 3000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "保持联系"
+    description = "期待您的建议和意见"
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", '<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=49IZ6Xe">北师小鸦内测群：334180755</a></p><p>为我们提供建议，同时抢先体验最新版本，更可以交流校园生活、选课经验！</p>'],
+        ["icon-envelope", '<a href="mailto:xuhongxu96@hotmail.com">创始人：xuhongxu96@hotmail.com</a>'],
+        ["icon-envelope", '<a href="mailto:xuhongxu96@hotmail.com">iOS 开发：chenzitan@icloud.com</a>'],
+        ["icon-globe", '<a href="https://bnuya.com/" target="_blank">https://bnuya.com</a>']
+      ]
+
+    name = "昵称"
+    email = "Email"
+    phone = "联系方式"
+    message = "留言"
+    button = "发送留言"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    links = [
+      ]
