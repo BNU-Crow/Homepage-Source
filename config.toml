@@ -244,7 +244,7 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "保持联系"
     description = "期待您的建议和意见"
