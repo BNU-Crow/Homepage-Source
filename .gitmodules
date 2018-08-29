@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:BNU-Crow/BNU-Crow.github.io.git
-[submodule ".\\themes\\hugo-elate-theme"]
-	path = .\\themes\\hugo-elate-theme
+[submodule "themes/hugo-elate-theme"]
+	path = themes/hugo-elate-theme
 	url = https://github.com/saey55/hugo-elate-theme
