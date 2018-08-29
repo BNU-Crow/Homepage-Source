@@ -193,7 +193,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "陈紫檀"
-      position = "产品经理/运营/iOS开发/后端开发"
+      position = "iOS开发/后端开发/产品经理/运营"
       description = "14级信息科学技术学院本科生(男生)，gap year于中科院软件所。"
       img = "person2.jpg"
       alt = "Person2"
