@@ -15,8 +15,8 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "北师小鸦"
-    home = "下载"
-    work = "产品展示"
+    home = "安装"
+    work = "特性"
     testimonials = "用户评价"
     services = "功能介绍"
     about = "关于小鸦"
@@ -47,10 +47,10 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "北师小鸦2 for iOS"
-    description = "《北师小鸦 2》是第二代《北师小鸦》。《北师小鸦 2》共进行了百余处优化，尤其对用户界面进行了细致的雕琢，大大提升了用户体验。"
+    title = "北师小鸦 2 for iOS"
+    description = "千锤百炼，精雕细琢。与数十位同学深入交流，做出了我们最需要的功能。百次改版打磨，做成了最人性化的北师小鸦2。"
     url = "https://itunes.apple.com/cn/app/北师小鸦-2/id1353400507"
-    button = "App Store 下载"
+    button = "安装"
     icon = "icon-screen-smartphone"
     img = "img_7.jpg"
 
@@ -58,7 +58,7 @@ theme = "hugo-elate-theme"
     title = "北师二鸦 for Android"
     description = "《北师二鸦》代码全部重写，从Java编程语言迁移到了先进的Kotlin编程语言，开发效率大大提高，进行了大量逻辑优化，效能提升显著。尚在研发中……"
     url = ""
-    button = "尚未发布"
+    button = "敬请期待"
     icon = "icon-screen-smartphone"
     img = "img_8.jpg"
 
@@ -80,7 +80,7 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "功能特性"
+    title = "特性"
     description = "无微不至的校园生活助手。从此在师大，只需小鸦伴。"
     footertext = '** 图片仅供参考，请以实际使用效果为准。'
 
@@ -106,24 +106,24 @@ theme = "hugo-elate-theme"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "用户评价"
-    description = "上线两年多以来，收获了大量用户的积极评价。<br>用户的好评也是我们继续做下去的动力！"
+    title = "好评如潮"
+    description = "上线两年多以来，受到了同学们的一致认可。<br>同学与老师们的支持也是我们坚持下去的动力！"
 
     [[params.testimonials.item]]
       quote = "&ldquo;新小鸦也太好用了吧！！辛苦前辈们的付出！！！有锻炼打卡，有532，天啊！懵了！太强了！幸胡来得太突然！&rdquo;"
-      person = 'iOS 版《北师小鸦 2》学生用户'
+      person = 'iOS用户'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
       quote = "&ldquo;真的很好用。作为老师我也一直在用。里面很多功能不仅仅满足学生，老师也能用到。&rdquo;"
-      person = 'iOS 版《北师小鸦 2》教师用户'
+      person = 'iOS用户<span style="font-size: 0.6em;">(老师也在用？)</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;开学在纠结<span style='font-size: 0.6em;'>（注：用什么课程表App好）</span>，查不到课表。感谢信科大兄弟及时更新。教务处的乱改，真是辛苦你们了。&rdquo;"
-      person = '《北师小鸦》Android版学生用户'
+      quote = "&ldquo;开学在纠结<span style='font-size: 0.6em;'>（用什么课程表App好）</span>，查不到课表。感谢信科大兄弟及时更新。教务处的乱改，真是辛苦你们了。&rdquo;"
+      person = 'Android用户'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -131,7 +131,7 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "功能介绍"
+    title = "功能"
     description = "功能全面，覆盖校园生活方方面面。"
 
     [[params.services.item]]
@@ -177,11 +177,11 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "关于小鸦"
-    description = "北师小鸦<span style='font-size: 0.6em;'>（含北师二鸦，北师小鸦 2）</span>由2位北师大14级本科生设计并开发。"
+    description = "北师小鸦<span style='font-size: 0.6em;'>（系列）</span>由两只 BNU 2014级本科生设计，开发与持续运营。"
 
     [[params.about.item]]
       name = "许宏旭"
-      position = "创始人 / Android 开发 / 前端开发 / 后端开发"
+      position = "创始人 / Android开发 / 前后端开发"
       description = "14级信息科学技术学院本科生，现就职于微软中国。"
       img = "person1.jpg"
       alt = "Person1"
@@ -193,12 +193,12 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "陈紫檀"
-      position = "产品经理 / iOS 开发 / 后端开发 / 运营"
-      description = "14级信息科学技术学院本科生(男生)，现gap year于中国科学院软件研究所。"
+      position = "产品经理/运营/iOS开发/后端开发"
+      description = "14级信息科学技术学院本科生(男生)，gap year于中科院软件所。"
       img = "person2.jpg"
       alt = "Person2"
       social = [
-        ["icon-github", "https://github.com/zitanchen"]
+        ["icon-github", "https://github.com/zitanchen"],
       ]
 
   # Counters section
@@ -213,7 +213,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 350
       interval = 50
-      speed = 3000
+      speed = 1000
 
     [[params.counters.item]]
       description = "代码行数"
@@ -221,37 +221,37 @@ theme = "hugo-elate-theme"
       from = 0
       to = 30000
       interval = 50
-      speed = 3000
+      speed = 1000
 
     [[params.counters.item]]
-      description = "运营小时"
+      description = "运营天数"
       icon = "icon-cup"
       from = 0
-      to = 26280
+      to = 1095
       interval = 50
-      speed = 3000
+      speed = 1000
 
     [[params.counters.item]]
       description = "用户数量"
       icon = "icon-people"
       from = 0
-      to = 80000
+      to = 13275
       interval = 50
-      speed = 3000
+      speed = 1000
 
   # Contact section
   [params.contact]
     enable = true
     map = false
     form = true
-    title = "保持联系"
-    description = "期待您的建议和意见"
-    
+    title = "新功能/反馈"
+    description = "这位同学, 你想要什么新功能呢"
+
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", '<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=49IZ6Xe">北师小鸦内测群：334180755</a></p><p>为我们提供建议，同时抢先体验最新版本，更可以交流校园生活、选课经验！</p>'],
         ["icon-envelope", '<a href="mailto:xuhongxu96@hotmail.com">创始人：xuhongxu96@hotmail.com</a>'],
-        ["icon-envelope", '<a href="mailto:xuhongxu96@hotmail.com">iOS 开发：chenzitan@icloud.com</a>'],
+        ["icon-envelope", '<a href="mailto:chenzitan@icloud.com">产品与运营：chenzitan@icloud.com</a> (微信: chenzitan95)'],
         ["icon-globe", '<a href="https://bnuya.com/" target="_blank">https://bnuya.com</a>']
       ]
 
