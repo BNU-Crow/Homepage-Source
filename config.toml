@@ -24,7 +24,7 @@ theme = "hugo-elate-theme"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -36,7 +36,7 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     title = "小鸦在手，校园畅通无阻！"
@@ -47,7 +47,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "iOS 版《北师小鸦 2》"
+    title = "北师小鸦2 for iOS"
     description = "《北师小鸦 2》是第二代《北师小鸦》。《北师小鸦 2》共进行了百余处优化，尤其对用户界面进行了细致的雕琢，大大提升了用户体验。"
     url = "https://itunes.apple.com/cn/app/北师小鸦-2/id1353400507"
     button = "App Store 下载"
@@ -55,7 +55,7 @@ theme = "hugo-elate-theme"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Android 版《北师二鸦》"
+    title = "北师二鸦 for Android"
     description = "《北师二鸦》代码全部重写，从Java编程语言迁移到了先进的Kotlin编程语言，开发效率大大提高，进行了大量逻辑优化，效能提升显著。尚在研发中……"
     url = ""
     button = "尚未发布"
@@ -63,7 +63,7 @@ theme = "hugo-elate-theme"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "《北师小鸦》Android 版"
+    title = "北师小鸦 for Android"
     description = "《北师小鸦》创始版本，历经坎坷，功能全面，可进行图书馆选座，可以添加多份课程表……“小鸦”将于“二鸦”诞生后退役，请及时关注最新动态。"
     url = "https://www.coolapk.com/apk/com.xuhongxu.xiaoya"
     button = "酷安 下载"
@@ -126,8 +126,6 @@ theme = "hugo-elate-theme"
       person = '《北师小鸦》Android版学生用户'
       img = "person3.jpg"
       alt = "Person3"
-    
-
 
 
   # Services section
@@ -152,27 +150,27 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
     title = "空闲自习室"
-    description = "随时查看空闲自习室，及时提示您接下来有几节空闲节次，助您任性安排自习时间。"      
+    description = "随时查看空闲自习室，及时提示您接下来有几节空闲节次，助您任性安排自习时间。"
     icon = "icon-pencil"
 
     [[params.services.item]]
     title = "图书馆"
-    description = "随借随查馆藏图书，再也不用烂笔头；定期查看借阅情况，从此告别违约金。"      
+    description = "随借随查馆藏图书，再也不用烂笔头；定期查看借阅情况，从此告别违约金。"
     icon = "icon-book-open"
 
     [[params.services.item]]
     title = "锻炼打卡"
-    description = "随手查看锻炼打卡信息，打卡失败及时获知，有效避免打卡机漏记。"      
+    description = "随手查看锻炼打卡信息，打卡失败及时获知，有效避免打卡机漏记。"
     icon = "icon-rocket"
 
     [[params.services.item]]
     title = "上网网关"
-    description = "自从北师大网络网关升级，网关用户体验极差。北师小鸦提供的上网认证网关，经过多次细节打磨，是方便您在校园上网冲浪最佳工具。"      
+    description = "自从北师大网络网关升级，网关用户体验极差。北师小鸦提供的上网认证网关，经过多次细节打磨，是方便您在校园上网冲浪最佳工具。"
     icon = "icon-globe"
 
     [[params.services.item]]
     title = "532 Movie"
-    description = "手机上看532只能用浏览器？还要登录认证十分繁琐？手机屏幕浏览网页操作不便？试试北师小鸦吧，自带优化过的532 Movie页面，影音娱乐尽在指尖。"      
+    description = "手机上看532只能用浏览器？还要登录认证十分繁琐？手机屏幕浏览网页操作不便？试试北师小鸦吧，自带优化过的532 Movie页面，影音娱乐尽在指尖。"
     icon = "icon-film"
 
   # About section
@@ -183,7 +181,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "许宏旭"
-      position = "创始人 / Android 开发 / 后端开发"
+      position = "创始人 / Android 开发 / 前端开发 / 后端开发"
       description = "14级信息科学技术学院本科生，现就职于微软中国。"
       img = "person1.jpg"
       alt = "Person1"
@@ -195,8 +193,8 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "陈紫檀"
-      position = "iOS 开发"
-      description = "14级信息科学技术学院本科生，擅长Apple技术栈。"
+      position = "产品经理 / iOS 开发 / 后端开发 / 运营"
+      description = "14级信息科学技术学院本科生(男生)，现gap year于中国科学院软件研究所。"
       img = "person2.jpg"
       alt = "Person2"
       social = [
@@ -210,7 +208,7 @@ theme = "hugo-elate-theme"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Commits"
+      description = "代码迭代次数"
       icon = "icon-briefcase"
       from = 0
       to = 350
@@ -218,7 +216,7 @@ theme = "hugo-elate-theme"
       speed = 3000
 
     [[params.counters.item]]
-      description = "代码行"
+      description = "代码行数"
       icon = "icon-code"
       from = 0
       to = 30000
