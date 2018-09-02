@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://bnuya.com"
+baseurl = "https://bnu-crow.com"
 title = "北师小鸦 官方网站"
 languageCode = "zh-cn"
 theme = "hugo-elate-theme"
