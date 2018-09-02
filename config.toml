@@ -117,7 +117,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       quote = "&ldquo;真的很好用。作为老师我也一直在用。里面很多功能不仅仅满足学生，老师也能用到。&rdquo;"
-      person = 'iOS用户<span style="font-size: 0.6em;">(老师也在用？)</span>'
+      person = 'iOS用户<span style="font-size: 0.6em;">（教育用户）</span>'
       img = "person2.jpg"
       alt = "Person2"
 
@@ -177,7 +177,7 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "关于小鸦"
-    description = "北师小鸦<span style='font-size: 0.6em;'>（系列）</span>由两只 BNU 2014级本科生设计，开发与持续运营。"
+    description = "北师小鸦<span style='font-size: 0.6em;'>（系列）</span>由两位 BNU 2014级本科生设计，开发与持续运营。"
 
     [[params.about.item]]
       name = "许宏旭"
@@ -194,7 +194,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "陈紫檀"
       position = "iOS开发/后端开发/产品经理/运营"
-      description = "14级信息科学技术学院本科生(男生)，gap year于中科院软件所。"
+      description = "14级信息科学技术学院本科生(男生)，Gap Year于中科院软件所。"
       img = "person2.jpg"
       alt = "Person2"
       social = [
@@ -251,7 +251,7 @@ theme = "hugo-elate-theme"
     details = [
         ["icon-home", '<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=49IZ6Xe">北师小鸦内测群：334180755</a></p><p>为我们提供建议，同时抢先体验最新版本，更可以交流校园生活、选课经验！</p>'],
         ["icon-envelope", '<a href="mailto:xuhongxu96@hotmail.com">创始人：xuhongxu96@hotmail.com</a>'],
-        ["icon-envelope", '<a href="mailto:chenzitan@icloud.com">产品与运营：chenzitan@icloud.com</a> (微信: chenzitan95)'],
+        ["icon-envelope", '<a href="mailto:chenzitan@icloud.com">产品与运营：chenzitan@icloud.com</a>（微信: chenzitan95）'],
         ["icon-globe", '<a href="https://bnuya.com/" target="_blank">https://bnuya.com</a>']
       ]
 
