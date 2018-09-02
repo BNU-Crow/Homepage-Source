@@ -117,7 +117,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       quote = "&ldquo;真的很好用。作为老师我也一直在用。里面很多功能不仅仅满足学生，老师也能用到。&rdquo;"
-      person = 'iOS用户<span style="font-size: 0.6em;">（教育用户）</span>'
+      person = 'iOS用户<span style="font-size: 0.6em;">（教师用户）</span>'
       img = "person2.jpg"
       alt = "Person2"
 
