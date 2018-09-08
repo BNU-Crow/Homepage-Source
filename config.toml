@@ -16,7 +16,7 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "北师小鸦"
     home = "安装"
-    work = "特性"
+    work = "展示"
     testimonials = "用户评价"
     services = "功能介绍"
     about = "关于小鸦"
@@ -80,7 +80,7 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "特性"
+    title = "展示"
     description = "无微不至的校园生活助手。从此在师大，只需小鸦伴。"
     footertext = '** 图片仅供参考，请以实际使用效果为准。'
 
@@ -101,6 +101,24 @@ theme = "hugo-elate-theme"
       alt = "新闻报道"
       title = "新生App指南"
       subtitle = "京师学工 公众号"
+
+    [[params.work.row]]
+      img = "iOS-1.png"
+      alt = "北师小鸦2 532movie"
+      title = "532 Movie"
+      subtitle = "iOS 版《北师小鸦 2》"
+
+    [[params.work.row]]
+      img = "iOS-2.png"
+      alt = "北师小鸦2 GPA报告"
+      title = "GPA 报告"
+      subtitle = "iOS 版《北师小鸦 2》"
+
+    [[params.work.row]]
+      img = "iOS-3.png"
+      alt = "北师小鸦2 上网认证网关"
+      title = "上网认证网关"
+      subtitle = "iOS 版《北师小鸦 2》"
 
 
   # Testimonials section
