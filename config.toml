@@ -231,7 +231,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 350
       interval = 50
-      speed = 1000
+      speed = 50
 
     [[params.counters.item]]
       description = "代码行数"
@@ -242,12 +242,12 @@ theme = "hugo-elate-theme"
       speed = 1000
 
     [[params.counters.item]]
-      description = "运营天数"
+      description = "运营年数"
       icon = "icon-cup"
       from = 0
-      to = 1095
+      to = 3
       interval = 50
-      speed = 1000
+      speed = 1
 
     [[params.counters.item]]
       description = "用户数量"
