@@ -64,9 +64,9 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "北师小鸦 for Android"
-    description = "《北师小鸦》创始版本，历经坎坷，功能全面，可进行图书馆选座，可以添加多份课程表……“小鸦”将于“二鸦”诞生后退役，请及时关注最新动态。"
-    url = "https://www.coolapk.com/apk/com.xuhongxu.xiaoya"
-    button = "酷安 下载"
+    description = "《北师小鸦》创始版本，历经坎坷，功能全面……“小鸦”已于“二鸦”诞生后退役！"
+    url = ""
+    button = "停止维护"
     icon = "icon-screen-smartphone"
     img = "img_10.jpg"
 
