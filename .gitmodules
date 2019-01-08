@@ -4,6 +4,3 @@
 [submodule "themes/hugo-elate-theme"]
 	path = themes/hugo-elate-theme
 	url = https://github.com/saey55/hugo-elate-theme
-[submodule "static/activity"]
-	path = static/activity
-	url = git@github.com:BNU-Crow/Xiaoya-Activity.git
